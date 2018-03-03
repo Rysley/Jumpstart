@@ -1,0 +1,8 @@
+.active {
+
+}
+
+.jumbotron-bike {
+  background-image: url("../../resources/media/jumbotron-bike.jpg");
+  text-shadow: black solid 1px;
+}
