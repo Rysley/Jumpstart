@@ -1,8 +1,51 @@
-.active {
 
+html {
+    font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+#explore {
+color: #399bd1;
+}
+
+.navbar-brand {
+  float: right;
 }
 
 .jumbotron-bike {
   background-image: url("../../resources/media/jumbotron-bike.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-shadow: black solid 1px;
+  color: white;
+  text-align: center;
+}
+
+.nav {
+  font-weight: bold;
+}
+
+
+.jumbotron-bike h1 {
+  padding-top: 11.85rem;
+  font-size: 7.1rem;
+  font-family: "Monoton";
+}
+
+.jumbotron-bike p {
+  padding-bottom: 11.85rem;
+  width: 51.3rem;
+  margin: auto;
+}
+
+.featured h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
 }
