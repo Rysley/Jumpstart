@@ -42,10 +42,18 @@ color: #399bd1;
   margin: auto;
 }
 
-.featured h2 {
-  text-align: center;
+h2 {
+  text-align: left;
   padding-bottom: 20px;
   font-size: 1.7rem;
   font-weight: bold;
+  color: #399bd1;
+}
+
+.featured__text h4 {
+  font-weight: bold;
+}
+
+.featured__text:last-of-type h4 {
   color: #399bd1;
 }
