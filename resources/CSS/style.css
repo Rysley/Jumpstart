@@ -7,12 +7,23 @@ body {
   font-family: "Open Sans";
 }
 
+img {
+  width: 100%;
+}
+
 #explore {
 color: #399bd1;
 }
 
 .navbar-brand {
   float: right;
+}
+
+.btn.btn-primary.btn-lg {
+  padding: 1.3rem;
+  width: 11.4rem;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .jumbotron-bike {
@@ -50,10 +61,28 @@ h2 {
   color: #399bd1;
 }
 
-.featured__text h4 {
+h4 {
   font-weight: bold;
 }
 
 .featured__text:last-of-type h4 {
   color: #399bd1;
+}
+
+.image-container {
+  opacity: 0.7;
+}
+
+.footer h1{
+  margin-top: 5.2rem;
+  font-size: 2.5rem;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+
+.footer {
+  text-align: center;
+  m
 }
