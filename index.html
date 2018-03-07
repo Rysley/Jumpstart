@@ -4,12 +4,14 @@
     <link href="./resources/CSS/reset.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./resources/slick/slick.css">
     <link href="./resources/CSS/style.css" type="text/css" rel="stylesheet">
     <title>Jumpstart</title>
     <link rel="icon" href="./resources/media/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
   </head>
   <body>
+
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <ul class="nav navbar-nav">
@@ -17,22 +19,51 @@
           <li><a  href="#">Start a project</a></li>
           <li><a  href="#">About us</a></li>
         </ul>
-        <a class="navbar-brand d-sm-none" href="#">
+        <a class="navbar-brand hidden-xs" href="#">
           <img alt="Brand" src="./resources/media/logo.png">
         </a>
         <!--img src="./resources/media/logo.png"/-->
       </div>
     </nav>
-    <div class="jumbotron jumbotron-bike">
-      <h1>Get Going</h1>
-      <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
-      <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+
+    <div class="carousel">
+      <div class="jumbotron jumbotron-bike container-fluid">
+        <div class="container-fluid">
+          <h1>Get Going</h1>
+          <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+        </div>
+        <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+      </div>
+      <div class="jumbotron jumbotron-bottles container-fluid">
+        <div class="container-fluid">
+          <h1>GET THINKING.</h1>
+          <p>Meet like-minded individuals who will help fuel your creative juices.</p>
+        </div>
+        <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+      </div>
+      <div class="jumbotron jumbotron-flowers container-fluid">
+        <div class="container-fluid">
+          <h1>GET CREATING.</h1>
+          <p>Stop overthinking projects and begin putting them out into the world.</p>
+        </div>
+        <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+      </div>
+      <div class="jumbotron jumbotron-room container-fluid">
+        <div class="container-fluid">
+          <h1>GET STARTED.</h1>
+          <p>What are you waiting for? Today's the day for your next big idea.</p>
+        </div>
+        <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+      </div>
     </div>
+
     <div class="featured container">
-      <div class="row image-container">
+      <div class="row">
         <h2 class="col-xs-12">Featured Project</h2>
         <!--div class="featured__photo col-xs-12"-->
-        <img class="col-lg-6 col-xs-12" src="./resources/media/featured-project.png"/>
+        <div class="col-lg-6 col-xs-12 image-container">
+          <img class="" src="./resources/media/featured-project.png"/>
+        </div>
         <!--/div-->
         <div class="featured__text col-lg-3 col-xs-6">
           <h4>DeFrost: A Documentary</h4>
@@ -68,47 +99,59 @@
           <h2>Projects</h2>
         </div>
         <div class="col-sm-4 col-xs-12">
-          <div class="image-container">
+          <div  class="image-container">
             <a href="#">
-              <img src="./resources/media/project1.png"/>
+              <img  class="image-container" src="./resources/media/project1.png"/>
             </a>
-            <h4>The Right Tights </h4>
-            <p>by Riley Mae </p>
-            <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
           </div>
+          <h4>The Right Tights </h4>
+          <p>by Riley Mae </p>
+          <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
         </div>
         <div class="col-sm-4 col-xs-12">
           <div class="image-container">
             <a href="#">
               <img src="./resources/media/project2.png"/>
             </a>
-            <h4>Peppermint Smart Home </h4>
-            <p> by Brian McDonald </p>
-            <p>Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
           </div>
+          <h4>Peppermint Smart Home </h4>
+          <p> by Brian McDonald </p>
+          <p>Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
         </div>
         <div class="col-sm-4 col-xs-12">
-          <div class="image-container">
+          <div class="image-container" >
             <a href="#">
               <img src="./resources/media/project3.png"/>
             </a>
-            <h4>American Streetlife</h4>
-            <p>by Patrick Wallace </p>
-            <p>I've been traveling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in this 120 page photo album.</p>
           </div>
+          <h4>American Streetlife</h4>
+          <p>by Patrick Wallace </p>
+          <p>I've been traveling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in this 120 page photo album.</p>
         </div>
       </div>
     </div>
 
-    <div class="footer navbar navbar-default">
-      <h1>Having trouble thinking of an idea?<h1>
+    <div class="footer container-fluid">
+      <h5>Having trouble thinking of an idea?</h5>
       <p>Inventorsâ block strikes at the worst times. But thatâs all changed with Jumpstartâs Good Idea Generator Lite (GIGLi).</p>
       <a href="#" class="btn btn-primary btn-lg">Learn more</a>
     </div>
 
-
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script>
-    <script src="./resources/JS/main.js"></script>
+    <!--script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script-->
+    <!--script type="text/javascript" src="./resources/JS/main.js"></script-->
+    <script type="text/javascript" src="./resources/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $(".carousel").slick({
+            autoplay: true,
+            autopleySpeed: 4000,
+            arrows: false,
+            swipe: false,
+            pauseOnFocus: false,
+            pauseOnHover: false
+          });
+        });
+    </script>
   </body>
 </html>
